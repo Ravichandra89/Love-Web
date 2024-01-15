@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <style>
+        .Button {
+            background-color: rgb(187, 242, 99);
+            margin: 0px;
+            padding: 10px;
+            width: 90px;
+            border-radius: 23%;
+        }
+        .form{
+            color: rgb(58, 188, 200);
+            font-size: 60px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            padding: 2%;
+        }
+    </style>
+</head>
+
+<body>
+  <fieldset>
+    
+    <legend class="form">Html Dummy Form</legend>
+    <div>
+        <label for="Date">Choose Date : </label>
+        <input type="date" name="" id="Date">
+    </div>
+    <br>
+    <br>
+    <!--  Select Tag -->
+    <div>
+        <label for="Select"> Chosse your dish : </label>
+        <select name="Dishes" id="Select">
+            <option value="maggi"> Maggi </option>
+            <option value="Lays"> Lays </option>
+            <option value="kurkure"> Kurkure </option>
+        </select>
+    </div>
+    <br>
+    <br>
+    
+    <br><br>
+
+    <!-- Text Area -->
+    <textarea name="textAread1" id="area" cols="30" rows="10" placeholder="Your introduction "></textarea>
+
+    <div >
+        <button class="Button">Click Here </button>
+    </div>
+<br>
+    <div>
+        <!-- Radio button  -->
+        <label for="Rad1">Male</label>
+        <input type="radio" name="radio1" id="Rad1">
+       
+
+        <label for="Rad2">Female</label>
+        <input type="radio" name="radio1" id="Rad2">
+      
+
+        <label for="Rad3">Other</label>
+        <input type="radio" name="radio1" id="Rad3">
+    </div>
+<br>
+    <div>
+        <!-- Check Box -->
+        <label for="checkbox2"> English</label>
+        <input type="checkbox" id="checkbox2">
+
+        <label for="checkbox2"> Hindi</label>
+        <input type="checkbox" id="checkbox2">
+
+    </div>
+<br>
+    <div>
+        <!-- File select -->
+        <label for="file">Upload</label>
+        <input type="file" name="chossefile" id="file">
+    </div>
+<br>
+    <div>
+        <!-- password -->
+        <label for="pass"> Enter passowrd </label>
+        <input type="password" name="password" id="pass">
+    </div>
+<br>
+
+    <div>
+        <!-- Image as button -->
+        <label for="Submit">Submit</label>
+        <input type="image" src="/Users/ravichandra/Desktop/Web Development/Video4/Love Web/Image.png" alt="Not access" width="20px" height="20px">
+    </div>
+  </fieldset>
+</body>
+
+</html>
