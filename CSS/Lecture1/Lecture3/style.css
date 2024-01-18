@@ -1,0 +1,28 @@
+/* div{
+    border: 2px solid black;
+    width : 300px;
+    height: 300px;
+    margin: 25px; 
+    padding: 50px;
+} */
+*{
+    margin: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 300px;
+}
+
+span{
+    border: 2px solid green;
+    width: 200px;
+    height: 150px;
+    margin-left: 100px;
+    padding: 10px;
+    display: inline-block;
+}
