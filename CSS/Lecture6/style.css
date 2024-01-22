@@ -1,0 +1,37 @@
+:root{
+    --primary-color: brown;
+    --custom-width: 330px;
+}
+
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.box{
+    background-color: rgb(204, 213, 112);
+    width: var(--custom-width);
+    height: var(--custom-width);
+    border: 1px solid var(--primary-color);
+    margin: 5px;
+    padding: 5px;
+
+    /* box-shadow: 30px 30px; */
+    /* box-shadow: 30px 30px 60px chocolate; */
+    /* box-shadow: 12px 12px 10px 12px chocolate; */
+    /* box-shadow: inset 5px 10px lightsalmon; */
+    /* Double box-shadow: ; */
+    /* box-shadow: 3px 3px red, -1em 0 .4em olive; */
+}
+#text{
+    font-style:italic;
+}
+
+#para{
+    text-shadow: 1px 1px 10px blue;
+
+}
