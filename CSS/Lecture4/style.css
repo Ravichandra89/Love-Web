@@ -1,0 +1,41 @@
+div{
+    border: 1px solid black;
+}
+
+.img1{
+    /* Change position static to relative */
+    /* position: relative;
+    top: 100px;
+    left: 100px; */
+
+    /* Abslute property */
+    /* position: absolute;
+    top: 350px; */
+    left: 1000px;
+    position: fixed;
+
+}
+.container{
+    position: relative;
+    height:8000px;
+    background-color: beige;
+}
+
+.img2{
+    position: fixed;
+    left: 1000px;
+}
+
+.img4{
+    position: fixed;
+}
+
+.img3{
+    position: fixed;
+    /* top: 0px; */
+}
+
+.box{
+    background-color: aquamarine;
+    height: 5000px;
+}
